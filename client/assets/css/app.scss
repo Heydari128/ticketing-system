@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__nuxt, #__layout {
+  height: 100%;
+  width: 100%;
+}
+
+#page-container {
+
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  min-height: calc(100% - 54px);
+  height: calc(100% - 54px);
+  margin: 0;
+  line-height: inherit;
+  font-size: inherit;
+  //@apply bg-blue-200 dark:bg-navy-500;
+}
+
+//
+//.dark {
+//  color-scheme: dark;
+//}
+
+:root {
+  --color-secondary: orange;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+input[data-autocompleted],
+select[data-autocompleted] {
+  border: none;
+  background: none !important;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: none;
+  appearance: textfield !important;
+}
+
+.material-symbols-outlined {
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
